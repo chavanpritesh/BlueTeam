@@ -1,6 +1,6 @@
-Some common Event IDs in **Windows Security Logs:
-- Event ID 4624**: Successful Logon.
-- Event ID 4625**: Failed Logon.
-- Event ID 4740**: Account Lockout.
-- Event ID 4732**: A user was added to a security-enabled local group.
-- Event ID 4672**: Special privileges assigned to a new logon (Privilege escalation).
+Some common Event IDs in Windows Security Logs:
+- Event ID 4624: Successful Logon.
+- Event ID 4625: Failed Logon.
+- Event ID 4740: Account Lockout.
+- Event ID 4732: A user was added to a security-enabled local group.
+- Event ID 4672: Special privileges assigned to a new logon (Privilege escalation).
