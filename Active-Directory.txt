@@ -7,9 +7,9 @@ This helps administrators control the network in one place instead of managing e
 
 
 
- Why Active Directory is Useful
+Why Active Directory is Useful
 
-Active Directory gives a structured and central place to manage everything. 
+It gives a structured and central place to manage everything. 
 
 
 benefits are:
@@ -27,7 +27,7 @@ benefits are:
 
  What is a Directory Service
 
-A directory service stores information about all users, computers, and services. It also provides tools to search, manage, 
+It stores information about all users, computers, and services. It also provides tools to search, manage, 
 and apply security rules. It helps organizations control user accounts and resources in one place.
 
 
@@ -44,7 +44,7 @@ and apply security rules. It helps organizations control user accounts and resou
 
  Domain Controllers
 
-A Domain Controller is a server that runs AD DS. It stores the directory database and verifies user login requests. It also 
+is a server that runs AD DS. It stores the directory database and verifies user login requests. It also 
 ensures that data is copied across all domain controllers in the network so that information stays consistent.
 
 
