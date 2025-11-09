@@ -1,0 +1,93 @@
+Active Directory
+
+Active Directory Domain Services, also called AD DS, is a service used in Windows Server to manage computers, users, 
+and other devices in a network. You can think of it like a large phone book for a company. Just like a phone book stores 
+names and numbers in an organized way, AD DS stores information about computers, users, printers, and other resources. 
+This helps administrators control the network in one place instead of managing everything separately.
+
+
+
+ Why Active Directory is Useful
+
+Active Directory gives a structured and central place to manage everything. 
+
+
+benefits are:
+
+1. It organizes users and devices in a clear, hierarchical structure.
+2. It allows changes to be made from multiple locations and keeps everything updated across the network.
+3. It provides one place to access network resources such as files, printers, and shared folders.
+4. It supports trust relationships between networks, even from older or different systems.
+5. It increases security by applying the same policies and permissions to everyone.
+6. It can scale easily when a company grows, meaning it supports large networks with many users.
+7. It allows sharing of resources and controlling who can use them.
+8. It gives reporting and auditing features that help track changes and identify security issues.
+
+
+
+ What is a Directory Service
+
+A directory service stores information about all users, computers, and services. It also provides tools to search, manage, 
+and apply security rules. It helps organizations control user accounts and resources in one place.
+
+
+
+ Important Services in AD DS
+
+1. Domain Services for login, searching, and communication between users and domains.
+2. Certificate Services to create and manage digital certificates for secure communication.
+3. Lightweight Directory Services for applications that use the LDAP protocol.
+4. Directory Federation Services for single sign on, so one login works for multiple applications.
+5. Rights Management Services to protect email and documents by controlling who can read or edit them.
+
+
+
+ Domain Controllers
+
+A Domain Controller is a server that runs AD DS. It stores the directory database and verifies user login requests. It also 
+ensures that data is copied across all domain controllers in the network so that information stays consistent.
+
+
+
+ Objects in Active Directory
+
+ Container Objects can hold other objects. Examples are Forest, Tree, Domain, Organizational Unit.
+ Leaf Objects cannot hold other objects. Examples are users, computers, printers.
+
+
+
+ Some Common Active Directory Terms
+
+ Schema defines what type of objects and attributes can exist.
+ Global Catalog holds information about every object, which helps in searching quickly.
+ Forest Root Domain is the first domain created in a forest.
+ Sites represent the physical layout of the network.
+ LDAP is a standard protocol used by AD for communication.
+ Organizational Unit (OU) is used to group users or computers for easier management.
+ Group Policy is used to apply the same settings or security rules to many users or computers.
+ Trust Relationship allows users from one domain to access resources in another domain.
+ Replication keeps all domain controllers updated with the same directory data.
+ Kerberos is the authentication method used to verify users securely.
+ Group is a collection of users or computers to simplify permission management.
+
+
+
+ Advantages of Active Directory
+
+1. Centralized management of users and computers.
+2. Scales easily for large organizations.
+3. Allows group policy management for consistent settings.
+4. Provides secure authentication and authorization.
+5. Supports single sign on for easy access across applications.
+
+
+
+ Disadvantages of Active Directory
+
+1. Setup and management can be complex and may need expert knowledge.
+2. Licensing and hardware cost can be high.
+3. Can be vulnerable to attacks if not secured properly.
+4. Works best mainly with Windows systems.
+5. Needs regular maintenance and updates.
+
+
